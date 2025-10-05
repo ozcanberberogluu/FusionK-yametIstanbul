@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3457d1d394748e94eb8f3aaa5d496f9a, type: 3}
+  m_Name: Mage
+  m_EditorClassIdentifier: 
+  classType: 1
+  baseHP: 90
+  baseEnergy: 120
+  baseAttack: 8
+  baseAttackSpeed: 1.1
+  baseCriticalChance: 7
+  baseCriticalMultiplier: 2.5
+  physicalCriticalChance: 7
+  physicalCriticalMultiplier: 2.5
+  magicCriticalChance: 5
+  magicCriticalMultiplier: 3
+  baseDefense: 5
+  baseArmor: 0.3
+  baseArmorReduction: 15
+  baseMagicPower: 25
+  baseMagicResistance: 25
+  baseEnergyRegenRate: 3.5
+  baseMovementSpeed: 1.1
+  baseDodgeChance: 5
+  baseHealingPower: 0
+  baseHealEfficiency: 0.3

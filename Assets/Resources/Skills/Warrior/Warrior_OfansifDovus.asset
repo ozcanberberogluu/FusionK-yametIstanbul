@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ed6b00ecee272540aa5623734b72b2d, type: 3}
+  m_Name: Warrior_OfansifDovus
+  m_EditorClassIdentifier: 
+  id: warrior.offensive
+  displayName: "Ofansif D\xF6v\xFC\u015F"
+  icon: {fileID: 21300000, guid: 74e987a1a691dde43b32fddd7257ef5a, type: 3}
+  classType: 0
+  minRequiredLevel: 1
+  effect: 3
+  baseDuration: 5
+  durationPerPoint: 0.5
+  cooldown: 0
+  maxPoints: 15
+  sfxClip: {fileID: 0}
+  sfxVolume: 1
+  sfxMaxDistance: 22
+  pctAt1: 50
+  pctAt5: 80
+  pctAt10: 110
+  pctAt15: 150
+  healBase: 50
+  healPercentPerPoint: 10
+  healLevelMultiplier: 0
+  healCooldownReductionPerPoint: 0.1
+  animTrigger: deparAnim
+  castIcon: {fileID: 21300000, guid: 5ededebec2d71c04d8dd5b1954ba8808, type: 3}
+  castIconDuration: 2
+  energyCost: 0
+  localVfxAnchorName: FxAnchor
+  healVfxPrefab: {fileID: 0}
+  healVfxUseBaseDuration: 1
+  healVfxDuration: 1
+  meteorProjectilePrefab: {fileID: 0}
+  meteorImpactPrefab: {fileID: 0}
+  meteorProjectileSpeed: 18
+  meteorCastDelaySeconds: 0.5
+  meteorUseFixedDamage: 1
+  meteorFixedDamage: 19
+  meteorFixedCritDamage: 25
+  meteorDamagePercentPerPoint: 0
+  meteorCritPlusPerPointAfter5: 1
+  meteorCooldownMinusAt10: 0.5
+  meteorCooldownMinusAt15: 1
+  meteorVulnPercent: 20
+  meteorVulnSeconds: 4.5
+  offensiveInfinite: 1
+  offensiveBonusAt1: 12
+  offensiveBonusPerPointAfter1: 2
+  freeChanceAt5: 10
+  freeChanceAt10: 20
+  freeChanceAt15: 40
+  bonusVsMonstersAt15: 1.5
